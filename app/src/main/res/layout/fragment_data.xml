@@ -19,7 +19,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="TextView"
-            android:textColor="#F62594"
+            android:textColor="#FF1493"
             android:textSize="30sp"/>
 
     </LinearLayout>
@@ -35,7 +35,7 @@
             android:layout_height="572dp"
             android:layout_weight="1"
             android:text="TextView"
-            android:textColor="#F686C1"
+            android:textColor="#FF69B4"
             android:textSize="20sp"/>
 
     </LinearLayout>
