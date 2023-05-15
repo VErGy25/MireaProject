@@ -28,7 +28,7 @@ public class DataFragment extends Fragment {
 
         final TextView textView = binding.textData;
         final TextView textView2 = binding.textData2;
-        textView.setText("Барби 2023 г. Комедия/Фэнтези");
+        textView.setText("Барби 2023 г. \n Комедия/Фэнтези");
 
         textView2.setText("Ба́рби» — предстоящий американский фильм в жанре романтической комедии режиссёра Греты Гервиг." +
                 " Сценарий к фильму, написанный Гретой Гервиг и Ноа Баумбахом, основан на серии игрушек Барби от компании Mattel." +

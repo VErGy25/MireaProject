@@ -32,4 +32,19 @@
         android:name="ru.mirea.makhorkin.mireaproject.DataFragment"
         android:label="Data"
         tools:layout="@layout/fragment_data" />
+    <activity
+        android:id="@+id/nav_activity_photo"
+        android:name="ru.mirea.makhorkin.mireaproject.PhotoActivity"
+        android:label="Камера"
+        tools:layout="@layout/activity_photo"/>
+    <activity
+        android:id="@+id/nav_activity_audio"
+        android:name="ru.mirea.makhorkin.mireaproject.AudioActivity"
+        android:label="Микрофон"
+        tools:layout="@layout/activity_audio"/>
+    <activity
+        android:id="@+id/nav_activity_accelerometer"
+        android:name="ru.mirea.makhorkin.mireaproject.Accelerometer"
+        android:label="Проверка"
+        tools:layout="@layout/activity_accelerometer"/>
 </navigation>

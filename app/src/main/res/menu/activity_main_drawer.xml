@@ -6,7 +6,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="?attr/actionModePasteDrawable"
             android:title="@string/menu_home" />
         <item
             android:id="@+id/nav_gallery"
@@ -18,11 +18,24 @@
             android:title="@string/menu_slideshow" />
         <item
             android:id="@+id/nav_browser"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="?android:attr/actionModeWebSearchDrawable"
             android:title="Browser" />
         <item
             android:id="@+id/nav_data"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="Data" />
+        <item
+            android:id="@+id/nav_activity_photo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Если забыл что ты красавец" />
+        <item
+            android:id="@+id/nav_activity_audio"
+            android:icon="@android:drawable/presence_audio_online"
+            android:title="Услада для ушей" />
+        <item
+            android:id="@+id/nav_activity_accelerometer"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Проверка" />
+
     </group>
 </menu>
