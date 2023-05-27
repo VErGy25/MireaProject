@@ -9,6 +9,10 @@
             android:icon="?attr/actionModePasteDrawable"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_activity_profile"
+            android:icon="@android:drawable/stat_sys_headset"
+            android:title="Profile" />
+        <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />

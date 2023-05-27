@@ -24,6 +24,8 @@
             android:exported="false"/>
         <activity android:name=".Accelerometer"
             android:exported="false"/>
+        <activity android:name=".ProfileSetting"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

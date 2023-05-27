@@ -47,4 +47,9 @@
         android:name="ru.mirea.makhorkin.mireaproject.Accelerometer"
         android:label="Проверка"
         tools:layout="@layout/activity_accelerometer"/>
+    <activity
+        android:id="@+id/nav_activity_profile"
+        android:name="ru.mirea.makhorkin.mireaproject.ProfileSetting"
+        android:label="Проверка"
+        tools:layout="@layout/activity_profile"/>
 </navigation>
