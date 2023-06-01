@@ -40,6 +40,10 @@
             android:id="@+id/nav_activity_accelerometer"
             android:icon="@android:drawable/ic_menu_help"
             android:title="Проверка" />
+        <item
+            android:id="@+id/nav_establishments"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Заведения" />
 
     </group>
 </menu>

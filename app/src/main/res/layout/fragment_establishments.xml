@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="800dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textEstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Кремль" />
+
+            <TextView
+                android:id="@+id/textEstDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Описание1" />
+
+            <Button
+                android:id="@+id/buttonMap1"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:text="карта" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textEstName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вернадка " />
+
+            <TextView
+                android:id="@+id/textEstDes2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Описание2" />
+
+            <Button
+                android:id="@+id/buttonMap2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="карта" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textEstName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Стромынка " />
+
+            <TextView
+                android:id="@+id/textEstDes3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Описание3" />
+
+            <Button
+                android:id="@+id/buttonMap3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="карта" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
