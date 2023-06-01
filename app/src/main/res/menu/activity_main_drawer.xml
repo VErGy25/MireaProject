@@ -13,14 +13,6 @@
             android:icon="@android:drawable/stat_sys_headset"
             android:title="Profile" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
             android:id="@+id/nav_browser"
             android:icon="?android:attr/actionModeWebSearchDrawable"
             android:title="Browser" />
@@ -40,6 +32,10 @@
             android:id="@+id/nav_activity_accelerometer"
             android:icon="@android:drawable/ic_menu_help"
             android:title="Проверка" />
+        <item
+            android:id="@+id/nav_establishments"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Заведения" />
 
     </group>
 </menu>
