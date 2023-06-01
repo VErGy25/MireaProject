@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397119745090",
+    "project_id": "mireaproject-232e4",
+    "storage_bucket": "mireaproject-232e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397119745090:android:37370f4c1dcd3972dfd1db",
+        "android_client_info": {
+          "package_name": "ru.mirea.makhorkin.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1bn-C_Y2IGVuix1eEFMIdRaw-o6TgpOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
